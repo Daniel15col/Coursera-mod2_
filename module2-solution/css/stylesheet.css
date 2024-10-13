@@ -1,135 +1,121 @@
+
+        
 *{
     box-sizing: border-box;
-    margin:0;
-    padding: 0;
+   
 }
 
-
-
-h1{
+table{
 margin-bottom: 15px;
-text-align: center;
+font-family: 'Courier New', Courier, monospace;
+
+}
+
+article{
+
+position: relative;
+
+
+}
+p{
+    position: relative;
+    
 }
 
 div{
     border: 3px solid black;
-    background-color: gray;
+    background-color: lightgray;
     width: 90%;
-    height: 150px;
-    margin-left: auto;
-    margin-right: auto;
-    
-    margin-bottom: auto;
+    height: 300px;
+    margin:10px;
+    margin-right: -10px;
     font-family:'Courier New', Courier, monospace;
     color: white;
-}
-
-#red{
-
-left: 76%;
-width: 117px;
-height: 30px;
-background-color: pink;
-text-align: center;
-font-family: 'Courier New', Courier, monospace;
-color: black;
-border: 3px solid black;
-
-
+    position: relative;
+    width: calc(100% - 20px);
 }
 
 
-.row{
-width: 100%;
-
+#Chicken{
+    float:right;
+    width: 160px;
+    margin:-3px ;
+    border: 3px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-align: center;
+    background-color: pink;
+    font-weight: bold;
 }
+#Beef{
+    float:right;
+    width: 160px;
+    margin:-3px ;
+    border: 3px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-align: center;
+    background-color: red;
+    font-weight: bold;
+}
+#Sushi{
+    float:right;
+    width: 160px;
+    margin:-3px ;
+    border: 3px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-align: center;
+    background-color: yellow;
+    font-weight: bold;
+}
+
+
+
 @media (min-width: 992px)
 {
-    .lg-1,.lg-2,.lg-3,.lg-4,.lg-5,.lg-6,.lg-7,.lg-8,.lg-9,.lg-10,.lg-11,.lg-12{
+    .lg-4{
         float: left;
-       
+        width: 33.33%;
         
     }
-.lg-1{
-    width: 8.33%;
-}
-.lg-2{
-    width: 16.66%;
-}
-.lg-3{
-    width: 25%;
-}
-.lg-4{
-    width: 33.33%;
-}
-.lg-5{
-    width: 41.66%;
-}
-.lg-6{
-    width: 50%;
-}
-.lg-7{
-    width: 58.33%;
-}
-.lg-8{
-    width: 66.66%;
-}
-.lg-9{
-    width: 74.99%;
-}
-.lg-10{
-    width: 83.33%;
-}
-.lg-11{
-    width: 91.66%;
-}
-.lg-12{
-    width: 100%;
-}
+
 }
 
 @media (min-width: 768px ) and (max-width: 991px)
 {
-    .m-1,.m-2,.m-3,.m-4,.m-5,.m-6,.m-7,.m-8,.m-9,.m-10,.m-11,.m-12{
+    .m-6{
+        width: 50%;
         float: left;
-        
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .m-12{
+        float: left;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
         
     }
-.m-1{
-    width: 8.33%;
+
 }
-.m-2{
-    width: 16.66%;
+
+@media (max-width: 767px){
+
+    .sm-12{
+        width: 100%;
+    }
 }
-.m-3{
-    width: 25%;
+#A{
+    color: black;
+    font-weight: bold;
 }
-.m-4{
-    width: 33.33%;
+#B{
+    color: black;
+    font-weight: bold;
 }
-.m-5{
-    width: 41.66%;
+#C{
+    color: black;
+    font-weight: bold;
 }
-.m-6{
-    width: 50%;
-}
-.m-7{
-    width: 58.33%;
-}
-.m-8{
-    width: 66.66%;
-}
-.m-9{
-    width: 74.99%;
-}
-.m-10{
-    width: 83.33%;
-}
-.m-11{
-    width: 91.66%;
-}
-.m-12{
-    width: 100%;
-   
-}
-}
+    
