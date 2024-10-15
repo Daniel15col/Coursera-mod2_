@@ -46,6 +46,7 @@ div{
     text-align: center;
     background-color: pink;
     font-weight: bold;
+    overflow:auto;
 }
 #Beef{
     float:right;
@@ -57,6 +58,7 @@ div{
     text-align: center;
     background-color: red;
     font-weight: bold;
+    overflow:auto;
 }
 #Sushi{
     float:right;
@@ -68,6 +70,7 @@ div{
     text-align: center;
     background-color: yellow;
     font-weight: bold;
+    overflow:auto;
 }
 
 
